@@ -6,9 +6,9 @@
 
 public class Titik {
     /********************ATRIBUT*********************/
-    private double absis;
-    private double ordinat;
-    private static int counterTitik = 0;
+    double absis;
+    double ordinat;
+    static int counterTitik = 0;
 
     /********************METHOD**********************/
     //konstruktor untuk membuat titik (0,0)
