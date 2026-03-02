@@ -12,7 +12,7 @@ public class Garis {
     private static int counterGaris;
 
     /************** METHOD **************/
-    // Kosntruktor tanpa parameter dengan titik awal (0,0) dan titik akhir (1,1)
+    // Konstruktor tanpa parameter dengan titik awal (0,0) dan titik akhir (1,1)
     public Garis(){
         titikAwal = new Titik();
         titikAkhir = new Titik(1,1);
