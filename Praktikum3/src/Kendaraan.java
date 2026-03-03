@@ -19,11 +19,11 @@ public class Kendaraan {
     }
 
     //Selektor
-    public String noPlat(){
+    public String getNoPlat(){
         return noPlat;
     }
 
-    public String jenis(){
+    public String getJenis(){
         return jenis;
     }
 
