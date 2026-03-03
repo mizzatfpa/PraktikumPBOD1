@@ -1,3 +1,9 @@
+/* Nama File    : MMahasiswa.java
+ * Deskripsi    : berisi implementasi dari relasi antar objek
+ * Pembuat      : Muhammad Izzat Fauzan Putra Arya / 24060124130096
+ * Tanggal      : 3 Maret 2026
+ */
+
 public class MMahasiswa {
     public static void main(String[] args) {
 

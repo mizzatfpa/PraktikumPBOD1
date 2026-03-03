@@ -1,3 +1,9 @@
+/* Nama File    : Kendaraan.java
+ * Deskripsi    : berisi atribut dan method dalam class Kendaraan
+ * Pembuat      : Muhammad Izzat Fauzan Putra Arya / 24060124130096
+ * Tanggal      : 3 Maret 2026
+ */
+
 public class Kendaraan {
     
     /* Atribut */
