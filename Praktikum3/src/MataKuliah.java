@@ -2,23 +2,23 @@ public class MataKuliah {
 
     /* Atribut */
     private String idMatKul;
-    private String Nama;
-    private int SKS;
+    private String nama;
+    private int sks;
     
     /* Method */
 
     //Konstruktor tanpa parameter
     public MataKuliah(){
         this.idMatKul = "";
-        this.Nama = "";
-        this.SKS = 0;
+        this.nama = "";
+        this.sks = 0;
     }
 
     //Konstruktor dengan parameter
-    public MataKuliah(String idMatKul, String Nama, int SKS){
+    public MataKuliah(String idMatKul, String nama, int sks){
         this.idMatKul = idMatKul;
-        this.Nama = Nama;
-        this.SKS = SKS;
+        this.nama = nama;
+        this.sks = sks;
     }
 
     //Selektor
@@ -27,11 +27,11 @@ public class MataKuliah {
     }
 
     public String getNama(){
-        return Nama;
+        return nama;
     }
 
-    public int getSKS(){
-        return SKS;
+    public int getSks(){
+        return sks;
     }
 
     //Mutator
@@ -39,11 +39,11 @@ public class MataKuliah {
         this.idMatKul = idMatKul;
     }
 
-    public void setNama(String Nama){
-        this.Nama = Nama;
+    public void setNama(String nama){
+        this.nama = nama;
     }
 
-    public void setSKS(int SKS){
-        this.SKS = SKS;
+    public void setSks(int sks){
+        this.sks = sks;
     }
 }

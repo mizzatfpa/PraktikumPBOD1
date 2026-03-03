@@ -2,49 +2,49 @@ public class Dosen {
 
     /*Atribut*/
 
-    private String NIP;
-    private String Nama;
-    private String Prodi;
+    private String nip;
+    private String nama;
+    private String prodi;
 
     /* Method */
 
     //Konstruktor tanpa parameter
     public Dosen(){
-        this.NIP = "";
-        this.Nama = "";
-        this.Prodi = "";
+        this.nip = "";
+        this.nama = "";
+        this.prodi = "";
     }
 
     //Konstruktor dengan parameter
-    public Dosen(String NIP, String Nama, String Prodi){
-        this.NIP = NIP;
-        this.Nama = Nama;
-        this.Prodi = Prodi;
+    public Dosen(String nip, String nama, String prodi){
+        this.nip = nip;
+        this.nama = nama;
+        this.prodi = prodi;
     }
 
     //Selektor
-    public String getNIP(){
-        return NIP;
+    public String getNip(){
+        return nip;
     }
 
     public String getNama(){
-        return Nama;
+        return nama;
     }
 
     public String getProdi(){
-        return Prodi;
+        return prodi;
     }
 
     //Mutator
-    public void setNIP(String NIP){
-        this.NIP = NIP;
+    public void setNip(String nip){
+        this.nip = nip;
     }
 
-    public void setNama(String Nama){
-        this.Nama = Nama;
+    public void setNama(String nama){
+        this.nama = nama;
     }
 
-    public void setProdi(String Prodi){
-        this.Prodi = Prodi;
+    public void setProdi(String prodi){
+        this.prodi = prodi;
     }
 }
