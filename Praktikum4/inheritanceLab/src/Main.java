@@ -35,5 +35,22 @@ public class Main {
 
         System.out.println();
         BangunDatar.printCounterBangunDatar();
+
+        /* JAWABAN BAGIAN 1 */
+        /* Tidak bisa karena atribut pada class bangun datar memiliki modifier private
+        sehingga tidak bisa diakses oleh subclassnya, dan harus memanggil method yang disediakan */
+
+        /* JAWABAN BAGIAN 3 */
+        /* Hasil yang dihasilkan dari melakukan overriding pada method printCounterBangunDatar() adalah error */
+
+        /* JAWABAN BAGIAN 4 */
+        /* Setelah dilakukan modifikasi dengan mengganti akses modifiernya menjadi protected maka
+        atribut akan dapat diakses oleh subclass-subclassnya sehingga kode akan dapat dijalankan dengan normal
+        tanpa memerlukan method selektor khusus*/
+
+        /* JAWABAN BAGIAN 5 */
+        /* Penambahan keyword final akan membuat suatu class tidak dapat diturunkan kembali
+         dan akan menghasilkan error pada subclass dari bangun datar. Penambahan pada method printInfo
+         juga akan menyebabkan hal yang sama */
     }
 }
