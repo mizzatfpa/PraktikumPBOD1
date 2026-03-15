@@ -36,6 +36,7 @@ public class Main {
         System.out.println();
         BangunDatar.printCounterBangunDatar();
 
+        /* ====================================== JAWABAN MODUL ====================================== */
         /* JAWABAN BAGIAN 1 */
         /* Tidak bisa karena atribut pada class bangun datar memiliki modifier private
         sehingga tidak bisa diakses oleh subclassnya, dan harus memanggil method yang disediakan */
