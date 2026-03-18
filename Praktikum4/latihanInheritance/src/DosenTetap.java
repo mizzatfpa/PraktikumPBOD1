@@ -20,6 +20,15 @@ public class DosenTetap extends Dosen{
         this.nidn = nidn;
     }
 
+    // Selektor dan mutator untuk NIDN dosen tetap
+    public String getNidn() {
+        return nidn;
+    }
+
+    public void setNidn(String nidn) {
+        this.nidn = nidn;
+    }
+
     // Method untuk menghitung batas usia pensiun (BUP) dengan rumus tanggal lahir + 65 (1 bulan setelah tanggal lahir + 65)
     private LocalDate hitungBUP(){
         return tanggalLahir.plusYears(BUP).plusMonths(1).withDayOfMonth(1);

@@ -25,6 +25,18 @@ public class Tendik extends Pegawai{
         }
     }
 
+    // Selektor dan mutator untuk bidang tendik
+    public String getBidang() {
+        return bidang;
+    }
+
+    public void setBidang(String bidang) {
+        if (!bidang.equals("Akademik") && !bidang.equals("Kemahasiswaan") && !bidang.equals("Sumber Daya")){
+            throw new IllegalArgumentException("Bidang tidak memenuhi syarat");
+        }
+        this.bidang = bidang;
+    }
+
     // Method untuk menghitung batas usia pensiun (BUP)
     private LocalDate hitungBUP(){
         return tanggalLahir.plusYears(BUP).plusMonths(1).withDayOfMonth(1);
