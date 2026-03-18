@@ -17,6 +17,15 @@ public class Dosen extends Pegawai {
         this.fakultas = fakultas;
     }
 
+    // Selektor dan mutator untuk fakultas dosen
+    public String getFakultas() {
+        return fakultas;
+    }
+
+    public void setFakultas(String fakultas) {
+        this.fakultas = fakultas;
+    }
+
     // Method untuk menampilkan informasi mengenai dosen dan fakultas
     @Override
     public void printInfo(){

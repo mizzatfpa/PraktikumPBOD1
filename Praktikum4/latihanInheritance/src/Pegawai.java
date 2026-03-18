@@ -29,6 +29,51 @@ public class Pegawai {
         this.gajiPokok = gajiPokok;
     }
 
+    // Selektor dan mutator untuk nama pegawai
+    public String getNama() {
+        return nama;
+    }
+
+    public void setNama(String nama) {
+        this.nama = nama;
+    }
+
+    // Selektor dan mutator untuk NIP pegawai
+    public String getNip() {
+        return nip;
+    }
+
+    public void setNip(String nip) {
+        this.nip = nip;
+    }
+
+    // Selektor dan mutator untuk tanggal lahir pegawai
+    public LocalDate getTanggalLahir() {
+        return tanggalLahir;
+    }
+
+    public void setTanggalLahir(LocalDate tanggalLahir) {
+        this.tanggalLahir = tanggalLahir;
+    }
+
+    // Selektor dan mutator untuk TMT pegawai
+    public LocalDate getTmt() {
+        return tmt;
+    }
+
+    public void setTmt(LocalDate tmt) {
+        this.tmt = tmt;
+    }
+
+    // Selektor dan mutator untuk gaji pokok pegawai
+    public double getGajiPokok() {
+        return gajiPokok;
+    }
+
+    public void setGajiPokok(double gajiPokok) {
+        this.gajiPokok = gajiPokok;
+    }
+
     // Method untuk menghitung masa kerja
     protected Period hitungMasaKerja(){
         LocalDate today = LocalDate.now();

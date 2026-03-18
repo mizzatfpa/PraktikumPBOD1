@@ -21,6 +21,24 @@ public class DosenTamu extends Dosen{
         this.tanggalSelesaiKontrak = tanggalSelesaiKontrak;
       }
 
+    // Selektor dan mutator untuk NIDK dosen tamu
+    public String getNidk() {
+        return nidk;
+    }
+
+    public void setNidk(String nidk) {
+        this.nidk = nidk;
+    }
+
+    // Selektor dan mutator untuk tanggal selesai kontrak
+    public LocalDate getTanggalSelesaiKontrak() {
+        return tanggalSelesaiKontrak;
+    }
+
+    public void setTanggalSelesaiKontrak(LocalDate tanggalSelesaiKontrak) {
+        this.tanggalSelesaiKontrak = tanggalSelesaiKontrak;
+    }
+
     // Method untuk menghitung masa kontrak tersisa
     private Period hitungSisaKontrak() {
         LocalDate today = LocalDate.now();
